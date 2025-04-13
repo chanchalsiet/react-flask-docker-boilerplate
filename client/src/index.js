@@ -13,7 +13,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:5000/api/v1.0/test")
+    fetch("https://api.discover.test.elastiq.app/api/v1.0/test")
       .then(res => res.json())
       .then(
         (result) => {
